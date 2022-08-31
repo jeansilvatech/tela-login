@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 800ms;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4673E9;
+    overflow: hidden;
+}
+.container{
+    background: rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+  
+}
+form{
+padding:40px;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+form label{
+    color: #C4C4C4;
+    padding-top: 10px;
+    letter-spacing: 2px;
+  
+}
+form #login{
+    margin-left: 9px;
+}
+form input{
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: #C4C4C4;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #4673E9;
+}
+form input:focus{
+    border-color: #4673E9;
+}
+form button{
+    background-color: #C4C4C4;
+    width: 200px;
+    height: 38px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    color: #4673E9;
+    letter-spacing: 2px;
+    
+   
+    
+}
+form button:hover{
+    color:#C4C4C4;
+    background-color: #4673E9;
+    transition: 800ms;
+    cursor: pointer;
+    
+}
+.circle1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: fixed;
+    background-size: contain;
+    top:-50px;
+    right:-50px
+}
+.circle2{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: fixed;
+    bottom:-50px;
+    left:-50px;
+    background-size: contain;
+}
+.circle3{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom:160px;
+    right:30px;
+    z-index: -1;
+}
+.circle4{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:160px;
+    left:30px;
+    z-index: -1;
+}
