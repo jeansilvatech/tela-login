@@ -56,7 +56,7 @@ form input{
     color: #4673E9;
 }
 form input:focus{
-    border-color: #4673E9;
+    outline-color: #4673E9;
 }
 form button{
     background-color: #C4C4C4;
