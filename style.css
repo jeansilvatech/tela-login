@@ -88,7 +88,8 @@ form button:hover{
     position: fixed;
     background-size: contain;
     top:-50px;
-    right:-50px
+    right:-50px;
+    z-index: -1;
 }
 .circle2{
     background-color: aqua;
@@ -98,7 +99,7 @@ form button:hover{
     position: fixed;
     bottom:-50px;
     left:-50px;
-    background-size: contain;
+    z-index: -1;
 }
 .circle3{
     background-color: aqua;
