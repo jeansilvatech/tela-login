@@ -8,4 +8,9 @@ Tela de login desenhada no Figma e desenvolvida do zero para testar os conhecime
 ## Desktop
 ![image](https://user-images.githubusercontent.com/23384348/187769102-9bfcc152-68d9-4f8a-9bbe-41a0eeff1af1.png)
 
+### Atualização
+
+![image](https://user-images.githubusercontent.com/23384348/195919716-ed554545-8a1f-4ab9-96b3-0223150a2b0a.png)
+
+
 
